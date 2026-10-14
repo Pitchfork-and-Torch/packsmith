@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "packsmith": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "${CURSOR_PLUGIN_ROOT}/src/server.js"
+      ]
+    }
+  }
+}

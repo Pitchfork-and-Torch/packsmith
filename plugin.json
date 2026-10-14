@@ -1,0 +1,17 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "packsmith",
+  "description": "Install and manage skill packs for Grok Bots. Fetches a hash-pinned pack JSON (or an encrypted blob) and writes each skill into the workflows dir, bypassing the template size cap. Never executes pack content.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Jon Bailey",
+    "url": "https://bots.jonbailey.xyz"
+  },
+  "mcp": "./mcp.json",
+  "skills": [
+    "./skills/packsmith-guide/SKILL.md"
+  ],
+  "license": "MIT",
+  "repository": "https://github.com/Pitchfork-and-Torch/packsmith",
+  "homepage": "https://bots.jonbailey.xyz"
+}

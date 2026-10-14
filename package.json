@@ -1,0 +1,10 @@
+{
+  "name": "packsmith",
+  "version": "0.1.0",
+  "description": "Install and manage skill packs for Grok Bots (zero-dependency stdio MCP server).",
+  "private": true,
+  "type": "commonjs",
+  "engines": { "node": ">=18" },
+  "bin": { "packsmith-server": "src/server.js" },
+  "scripts": { "start": "node src/server.js", "test": "node --test" }
+}
